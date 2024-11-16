@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.account-listings {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.account-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.account-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.account-item p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.whatsapp-logo {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+a {
+    color: #25D366;
+    text-decoration: none;
+    font-weight: bold;
+}
